@@ -1,0 +1,158 @@
+repo_name: sachajw/vtop
+report_id: e849482054ea50af86b7a724c2b126b2
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:48:17+00:00'
+requested_by: MrRio
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/sachajw/vtop
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/vtop
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Amila Welihinda
+  last_updated_on: 2016-07-05 06:37:14.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: James Hall
+  last_updated_on: 2016-10-16 17:22:55.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: James Hall
+  last_updated_on: 2014-05-21 02:21:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sachajw/vtop
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2017-07-29 10:06:26.000000000 Z
+- name: blessed
+  description: A high-level terminal interface library for node.js
+  package_url: https://www.npmjs.com/blessed
+  version: 0.1.81
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17050/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: James Hall
+  last_updated_on: 2016-10-16 17:22:55.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 2.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2017-07-29 10:06:26.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2017-07-29 10:06:26.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 0.11.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2017-07-29 10:06:26.000000000 Z
+- name: read
+  description: Read
+  package_url: https://www.npmjs.com/read
+  version: 1.0.7
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/sachajw/vtop/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: greenkeeper[bot]
+  last_updated_on: 2017-07-29 10:06:26.000000000 Z
